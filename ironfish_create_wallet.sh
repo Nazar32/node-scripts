@@ -1,6 +1,6 @@
-ironfish wallet:create $NODE_NAME && \
-ironfish wallet:use $NODE_NAME && \
-ironfish config:set nodeName $NODE_NAME && \
-ironfish config:set blockGraffiti $NODE_NAME && \
-ironfish config:set minerBatchSize 60000 && \
-ironfish config:set enableTelemetry true
+docker exec ironfish ./bin/run wallet:create $NODE_NAME && \
+docker exec ironfish ./bin/run wallet:use $NODE_NAME && \
+docker exec ironfish ./bin/run config:set nodeName $NODE_NAME && \
+docker exec ironfish ./bin/run config:set blockGraffiti $NODE_NAME && \
+docker exec ironfish ./bin/run config:set minerBatchSize 60000 && \
+docker exec ironfish ./bin/run config:set enableTelemetry true
