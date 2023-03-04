@@ -1,3 +1,4 @@
+source .profile && \
 sudo systemctl stop nibid  && \
 cp $HOME/.nibid/data/priv_validator_state.json $HOME/.nibid/priv_validator_state.json.backup  && \
 nibid tendermint unsafe-reset-all --home $HOME/.nibid --keep-addr-book  && \
