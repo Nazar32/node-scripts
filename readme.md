@@ -14,3 +14,7 @@ bash <(curl -s https://raw.githubusercontent.com/Nazar32/node-scripts/main/ironf
 ```
 bash <(curl -s https://raw.githubusercontent.com/Nazar32/node-scripts/main/starknet_delete.sh)
 ```
+
+```
+bash <(curl -s https://raw.githubusercontent.com/Nazar32/node-scripts/main/penumbra_update.sh)
+```
